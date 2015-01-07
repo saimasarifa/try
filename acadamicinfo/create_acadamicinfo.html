@@ -1,0 +1,44 @@
+<form action ="add_acadamicinfo.php" method="post">
+
+    <h1> Acadamic  information  form</h1>
+
+
+    <label>Level of Education:</label>
+        <select name ="level_of_education">
+
+        <option value="diploma" selected>diploma</option>
+        <option value="bsc">bsc</option>
+        <option value="msc">msc</option>
+    </select>
+    <label>Exam Title*:</label>
+    <input type ="text" name="exam_title" /><p>
+    <label>group/Subject* :</label>
+    <input type ="text" name="group_subject" /><p>
+    <label>Institution :</label>
+    <select name ="institution">
+
+        <option value="bngla_college" selected>bangla college</option>
+        <option value="Du">Du</option>
+        <option value="khulna_uni">khulna_uni</option>
+           </select>
+        <label>Result Type* :</label>
+    <input type ="text" name="result_type" /><p>
+    <label>Result*:</label>
+    <input type ="text" name="result" />
+    <label>Scale*:</label>
+    <input type ="text" name="scale" /><p>
+    <label>Passing Year*:</label>
+    <input type ="text" name="passing_year" /><p>
+    <label>Duration :</label>
+    <input type ="text" name="duration" /><p>
+   achievement:<p> <textarea cols="50" rows="4" wrap = "virtual" name="achievement">
+
+</textarea> <p>
+
+
+
+<button type ="submit">submit</button>
+    <button type ="button">Cancel</button>
+
+
+</form>
